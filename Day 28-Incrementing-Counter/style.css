@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+.fa-youtube:hover{
+color: red;
+}
+.fa-facebook:hover{
+color: rgb(8, 8, 109);
+}
+.fa-twitter:hover{
+color: blue;
+}
+body {
+  background: url(https://images.unsplash.com/photo-1589030343991-69ea1433b941?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section{
+  
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto Mono', sans-serif;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  width: 80vw;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  backdrop-filter: blur(20px);
+  margin: 25vh auto;
+ 
+
+}
+
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 50px;
+}
+
+.counter {
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+@media (max-width: 580px) {
+  body {
+    flex-direction: column;
+  }
+}
