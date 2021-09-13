@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: steelblue;
+  background-color: rgb(238, 238, 238);
   color: #fff;
   font-family: 'Muli', sans-serif;
   display: flex;
@@ -21,6 +21,7 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
   padding: 20px 40px;
   border-radius: 5px;
+  backdrop-filter: blur(5px);
 }
 
 .container h1 {
@@ -47,6 +48,11 @@ body {
 
 .btn:focus {
   outline: 0;
+}
+.btn:hover {
+  outline: 0;
+  transform: scale(1.1);
+  transition: all 50ms ease-in-out;
 }
 
 .btn:active {
