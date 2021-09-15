@@ -8,7 +8,7 @@ writeText()
 
 function writeText() {
     textEl.innerText = text.slice(0, idx)
-    console.log(textEl)
+
 
     idx++
 
